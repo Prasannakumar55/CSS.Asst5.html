@@ -1,0 +1,143 @@
+body {
+    margin: 10px;
+    width: 95.8vw;
+    height: 100vh;
+    border-top: 15px solid white;
+    border-left: 20px solid orange;
+    border-right: 20px solid green;
+     
+}
+.sky {
+    background-image: url(./sky.jpg);
+    background-size: 100%;
+    width: 1470px;
+    height: 700px;
+}
+.city {
+    background-image: url(./city.png);
+    width: 500%;
+    height: 260px;
+    background-repeat: repeat-x;
+    position: relative;
+    top: -550px;
+    animation: prasanna 25s infinite;
+}
+@keyframes prasanna {
+    100% {
+        transform: translate(-1500px);
+    }
+}
+.road {
+    background-image: url(./road.jpg);
+    width: 500%;
+    height: 300px;
+    position: relative;
+    background-repeat: repeat-x;
+    top: -560px;
+    animation: prasanna 20s infinite;
+}
+@keyframes prasanna {
+    100% {
+        transform: translate(-1500px);
+    }
+}    
+.car {
+    background-image: url(./car.png);
+    background-size: 100%;
+    width: 500px;
+    height: 200px;
+    position: relative;
+    top: -950px;
+    left: 500px;
+}
+.wheel1 {
+    background-image: url(./wheel.png);
+    background-size: 100%;
+    width: 90px;
+    height: 90px;
+    background-repeat: repeat-x;
+    position: relative;
+    top: -1038px;
+    left: 543px;
+    animation: prasanna4 5s linear infinite;
+}
+.wheel2 {
+    background-image: url(./wheel.png);
+    background-size: 100%;
+    width: 90px;
+    height: 90px;
+    background-repeat: repeat-x;
+    position: relative;
+    top: -1128px;
+    left: 849px;
+    animation: prasanna4 5s linear infinite;
+}
+@keyframes prasanna4 {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.flag {
+    background-image: url(./flag.png);
+    background-size: 100%;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: -1370px;
+    left: 850px;
+}
+.sun {
+    background-image: url(./sun.png);
+    background-size: 100%;
+    width: 100px;
+    height: 100px;
+    background-repeat: repeat-x;
+    position: relative;
+    top: -1700px;
+    left: 1300px;
+    animation: prasanna 60s infinite;
+}
+@keyframes prasanna {
+    100% {
+        transform: translate(-1500px);
+    }    
+}  
+
+.flex {
+    display: flex;
+    width: 600px;
+    text-align: center;
+    margin-top: none;
+    position: absolute;
+    top: 50px;
+    left: 550px;
+    font-size: 30px;
+    column-gap: 15px;
+}  
+.happy1 {
+    width: 300px;
+    height: 40px;
+    background-color: orange;
+    border: 5px solid orange;
+    padding-top: 10px;
+}
+.happy2 {
+    width: 500px;
+    height: 40px;
+    background-color: white;
+    border: 5px solid white;
+    padding-top: 10px;
+}
+.happy3 {
+    width: 350px;
+    height: 40px;
+    background-color: green;
+    border: 5px solid green;
+    padding-top: 10px;
+
+}
+
+ 

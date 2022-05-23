@@ -1,0 +1,36 @@
+body {
+    width: 1200px;
+    height: 700px;
+    background-color: yellow;
+}
+h1 {
+    margin-left: 670px;
+}
+a {
+    margin-left: 700px;
+    text-decoration:underline;
+    font-size: 18px;
+}
+.grid {
+    width: 150px;
+    height: 1200px;
+    display: grid;
+    grid-template-rows: auto auto;
+    position: relative;
+    left: 700px;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(47, 189, 47);
+    cursor: pointer;
+    transition-duration: 6s;
+}
+
+.box:hover {
+     width: 300px;
+}
+.box2:hover {
+    width: 250px;
+    height: 300px;
+}

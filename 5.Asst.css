@@ -1,0 +1,124 @@
+body {
+    width: 1200px;
+    height: 700px;
+    background-color: yellow;
+}
+h1 {
+    margin-left: 670px;
+}
+a {
+    margin-left: 660px;
+    text-decoration:underline;
+    font-size: 25px;
+}
+.grid {
+    width: 400px;
+    height: 500px;
+    margin-left: 600px;
+    margin-top: 10px;
+}
+.square1 {
+    display: flex;
+    justify-content: space-around;
+}
+.square2 {
+    display: flex;
+    justify-content: space-around;
+}
+.square3 {
+    display: flex;
+    justify-content: space-around;
+}
+.square4 {
+    display: flex;
+    justify-content: space-around;
+}
+.box {
+    width: 60px;
+    height: 60px;
+}
+.box1 {
+    background-color: rgb(74, 103, 140);
+    animation: 4s boxes1 infinite alternate-reverse;
+}
+
+@keyframes boxes1 {
+
+    from {
+        transform:skewX(-30deg);
+    }
+    to {
+        transform: skewX(30deg);
+    }
+}
+
+.box2 {
+    background-color:rgb(133, 138, 146);
+    animation: 2s boxes2 infinite alternate-reverse;
+} 
+@keyframes boxes2 {
+
+    from {
+        transform:skewY(-30deg);
+    }
+    to {
+        transform: skewY(30deg);
+    }
+}
+.box3 {
+    background-color: rgb(74, 103, 140);
+    animation: 2s boxes3 infinite;
+} 
+@keyframes boxes3 {
+
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.boxA {
+    background-color: rgb(106, 141, 187);
+    animation: 2s boxesA infinite alternate-reverse;
+}
+@keyframes boxesA {
+
+    from {
+        
+    }
+    to {
+        transform: scaleY(0.5)
+
+    }
+}
+
+.boxB {
+    background-color: rgba(124, 9, 9, 0.737);
+    animation: 2s boxesB infinite alternate-reverse;
+
+}
+@keyframes boxesB {
+
+    from {
+        
+    }
+    to {
+        transform: scaleX(0.5)
+
+    }
+}
+.boxC {
+    background-color: rgb(69, 133, 68);
+    animation: 5s boxes3 infinite alternate-reverse;
+}
+@keyframes boxesC {
+
+    from {
+        transform: rotate(0 deg);
+    }
+    to {
+        transform: rotateZ(10 deg);
+
+    }
+}
